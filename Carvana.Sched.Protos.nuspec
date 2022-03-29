@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Carvana.Sched.Protos</id>
-    <version>3.0.32</version>
+    <version>3.0.33</version>
     <authors>Carvana</authors>
     <description>Scheduling Proto Files</description>
     <dependencies>
@@ -10,7 +10,6 @@
     </dependencies>
   </metadata> 
   <files>
-    <file src="Protos/**/*.proto" target="contentFiles/content/any" /> 
-    <file src="Protos/**/*.cs" target="contentFiles/cs/any" /> 
+    <file src="Protos/**/*" target="contentFiles/any/any" /> 
   </files>
 </package>
