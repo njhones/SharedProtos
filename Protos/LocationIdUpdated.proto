@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+package Carvana.Sched.Protos;
+
+option csharp_namespace = "Carvana.Sched.Protos";
+
+message LocationIdUpdated {
+  int32 locationId = 1;
+  enum ResourceType {
+    None = 0;
+    Bay = 1;
+    Hauler = 2;
+  }
+  ResourceType resourceType = 2;
+}

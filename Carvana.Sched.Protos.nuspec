@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Carvana.Sched.Protos</id>
+    <version>3.0.32</version>
+    <authors>Carvana</authors>
+    <description>Scheduling Proto Files</description>
+    <dependencies>
+        <dependency id="Google.Protobuf" version="3.19.4" exclude="Build,Analyzers" />
+    </dependencies>
+  </metadata> 
+  <files>
+    <file src="Protos/**/*.proto" target="contentFiles/content/any" /> 
+    <file src="Protos/**/*.cs" target="contentFiles/cs/any" /> 
+  </files>
+</package>
